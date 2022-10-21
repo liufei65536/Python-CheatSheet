@@ -46,7 +46,7 @@ git push -u origin master
 ```
 
 -u参数可以在推送的同时，将origin仓库的master分支设置为本地仓库当前分支的upstream（上游）。添加了这个参数，将来运行git pull命令从远程仓库获取内容时，本地仓库的这个分支就可以直接从origin的master分支获取内容，省去了另外添加参数的麻烦。
-
+（后面直接git push即可，不需要加参数）
 ## 三、版本回溯
 要让仓库的HEAD、暂存区、当前工作树回溯到指定状态，需要用到git rest --hard命令
 ```
